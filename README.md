@@ -1,6 +1,6 @@
-# basic-login-bar
+# really-basic-login-bar
 
-An EJS header template with login, signup, social media and forgot email functions
+An EJS header template with login, signup, and forgot email functions
 
 This module extends your Express app with routes and templates needed to quickly add login functionality to your app.
 
@@ -10,7 +10,7 @@ This module extends your Express app with routes and templates needed to quickly
  How to use:
  
  ```
- npm install --save basic-login-bar
+ npm install --save really-basic-login-bar
  ```
  In your server.js or app.js:
  ```
