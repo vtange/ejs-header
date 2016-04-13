@@ -1,6 +1,6 @@
 {
   "name": "really-basic-login-bar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic Bar with Title and Login buttons.",
   "main": "server.js",
   "scripts": {
