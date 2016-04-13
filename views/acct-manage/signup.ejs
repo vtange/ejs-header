@@ -20,7 +20,7 @@
     <% } %>
 
     <!-- LOGIN FORM -->
-    <form action="/signup" method="post">
+    <form action="/users/signup" method="post">
 		<div class="form-group">
             <label>Username</label>
             <input type="text" class="form-control" name="username">
@@ -37,12 +37,8 @@
         <button type="submit" class="btn btn-warning btn-lg">Signup</button>
     </form>
 	<hr>
-	<p>Or Signup with <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a></p>
-	<p>Or Signup with <a href="/auth/twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</a></p>
-	<p>Or Signup with <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google-plus"></span> Google</a></p>
-    <hr>
 
-    <p>Already have an account? <a href="/login">Login</a></p>
+    <p>Already have an account? <a href="/users/login">Login</a></p>
     <p>Or go <a href="/">home</a>.</p>
 
 </div>

@@ -7,7 +7,7 @@ var session = input_session;
 
 // set up statics
 var express  = require('express');
-app.use(express.static(__dirname + '/public'));     // set the static files location /public/img will be /img for users
+app.use('/users',express.static(__dirname + '/public'));     // set the static files location /public/img will be /img for users
 
 var flash    = require('connect-flash');
 app.use(flash()); // use connect-flash for flash messages stored in session
