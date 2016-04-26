@@ -1,4 +1,4 @@
-# really-basic-login-bar
+# ejs-header
 
 An EJS header template with login, signup, and forgot email functions
 

@@ -1,7 +1,7 @@
 {
-  "name": "really-basic-login-bar",
-  "version": "1.0.4",
-  "description": "Basic Bar with Title and Login buttons.",
+  "name": "ejs-header",
+  "version": "1.0.5",
+  "description": "handlebars barebones header",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
