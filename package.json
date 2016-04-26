@@ -1,7 +1,7 @@
 {
   "name": "ejs-header",
   "version": "1.0.5",
-  "description": "handlebars barebones header",
+  "description": "ejs barebones header",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
