@@ -10,24 +10,16 @@ This module extends your Express app with routes and templates needed to quickly
  How to use:
  
  ```
- npm install --save really-basic-login-bar
+ npm install --save ejs-header
  ```
  In your server.js or app.js:
  ```
-app.use(session({ secret: 'blah' }));
-app.use(passport.initialize());
-app.use(passport.session());
-app.use(flash());
-
-app.set('view engine', 'ejs'); 
-app.use(express.static(__dirname + '/public'));
 app.use('/users', express.static(__dirname + '/public'));
-
-require('basic-login-bar')(app,session,passport);
+require('ejs-header')(app,session,passport);
  ```
  In your own templates
  ```
-<%- include ../node_modules/basic-login-bar/views/partials/header.ejs %>
+<%- include ../node_modules/ejs-header/views/partials/header.ejs %>
  ```
  
  The .ejs partial for the header requires a 'title' property inputed from all your server routes. This autogenerates the title shown on the header. For example:
@@ -38,6 +30,5 @@ require('basic-login-bar')(app,session,passport);
  ```
  You can define ```app.title``` in ```server.js/index.js``` or in ```package.json``` and require it.
  
- You can find example boilerplate code for a project using this module at 
- https://github.com/vtange/Boilerplates/tree/master/site-w-logins-header
+ ### You can generate a project using Slush using this header with https://github.com/vtange/slush-ejs-barebones
  
