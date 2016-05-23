@@ -14,6 +14,8 @@ This module extends your Express app with routes and templates needed to quickly
  ```
  In your server.js or app.js:
  ```
+app.title = "YOUR_PROJECT_NAME";
+app.social = false;
 app.use('/users', express.static(__dirname + '/public'));
 require('ejs-header')(app,session,passport);
  ```
